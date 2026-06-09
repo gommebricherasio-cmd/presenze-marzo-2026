@@ -1,0 +1,22 @@
+{
+  "name": "bricherasio-gomme-bot",
+  "version": "1.0.0",
+  "description": "Middleware WhatsApp → AI → Trello per Bricherasio Gomme",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
